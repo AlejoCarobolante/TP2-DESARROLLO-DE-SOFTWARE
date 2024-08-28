@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(199, 198, 198);
+}
+.tp{
+    font-size: 25px;
+}
+.trabajo{
+    font-size: 10px;
+    text-align: center;
+}
+.cabecera{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    padding: 20px 0px;
+}
+.propiedades{
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px 10px;
+    margin-top: 15px;
+    box-shadow: 0px 3px 10px 3px;
+}
+.proptext{
+    font-size: 25px;
+    border-bottom: 2px solid #000;
+}
+.oracion{
+    text-decoration: underline;
+    font-size: 17px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    padding: 20px 0px;
+}
+.diseño{
+    font-style: italic;
+    background-color: rgb(199, 198, 198);
+    padding: 10px 20px 10px;
+    border-left: 7px solid gray ;
+}
