@@ -22,7 +22,7 @@ body{
     background-color: gray;
     padding: 20px 0px;
 }
-div{
+.encabezado{
     background-color: white;
     border-radius: 5px;
     padding: 20px 10px;
@@ -91,7 +91,7 @@ p{
     padding: 15px 10px 15px;
     margin-top: 15px;
     position: relative;
-    box-shadow: 0px 0px 0px 0px;
+   
 }
 .cajaazul{
     background-color: rgb(59, 131, 149);
@@ -101,12 +101,43 @@ p{
     position:absolute;
     top: 6px;
     left: 40vw;
-    box-shadow: 0px 0px 0px 0px;
+   
 }
 .grid-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: repeat(4, 350px);
     width: 80vw;
+    justify-content: center;
+    gap: 1rem;
+}
+.grid-item{
+    background-color: rgb(133, 146, 255);
+    width: 300px; 
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 10px;
+    margin: 10px;
+    color: white;
+}
+.elementos{
+    font-size: 17px;
+    border-bottom: 0px;
+    justify-content: center;
+    padding: 0px 90px;
+}
+.encabezado2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 250px;
+    height: 250px;
+    border: none;
+    background-color: red;
+    display: grid;
 }
 @media screen and (max-width: 768px){
  body{
